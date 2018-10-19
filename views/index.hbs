@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Databases are fun</title>
+</head>
+
+<body>
+  <h2>You'll see below the list of users in our database!</h2>
+  <ul>
+    {{#each users}}
+    <li>{{name}} ({{email}})</li>
+    {{/each}}
+  </ul>
+  <h3>Awesome! How does it work?</h3>
+  <p>Head over to the file named <b>db.js</b>. This is where all of our database functions are stored. They're written
+    in Javascript but the main
+    takeaway is seeing how they're constructed. <br />
+  </p>
+  <p>You'll notice in the function getUsers we're basically saying "get me all of the users from the database".</p>
+  <a href="/first">I've coded the function</a>
+
+  <p></p>
+  <h2>After completing the first exercise, let's find specific information in the database.</h2>
+  <p>How do we find someone named Nigel in the database? Let's try a "where" query.</p>
+  <p>Head over to db.js and code a where query that finds Nigel. There's one named getUser which finds a user by ID,
+    but not name. <strong>This is difficult, so please refer to the Knex cheatsheet</strong> (found in the readme) for
+    syntax. </p>
+  <a href="/nigel">Let's do it, my code and soul are ready!</a><br />
+  <i>Still stuck? Please navigate to /user/5 to see what your page should look like</i>
+</body>
+
+</html>
