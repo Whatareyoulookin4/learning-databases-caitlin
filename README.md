@@ -4,6 +4,7 @@
 
 ## To run this project 
 ```
+yarn
 yarn run knex migrate:latest
 yarn run knex seed:run
 yarn dev
