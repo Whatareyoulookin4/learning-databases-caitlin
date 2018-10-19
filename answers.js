@@ -5,3 +5,8 @@
 // return conn('users')
 // .select()
 // .first();
+
+//secret to finding nigel
+// return conn('users')
+//     .select()
+//     .where('name', name);

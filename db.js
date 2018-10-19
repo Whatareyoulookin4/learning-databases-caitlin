@@ -34,10 +34,6 @@ function getFirstUser(id, testConn) {
 
 function findNigel(name, testConn) {
   const conn = testConn || connection;
-  console.log(name);
   name = toUpperCase(name);
   // your code goes here!! please refer to the functions above for clues. We need to find Nigel!
-  return conn('users')
-    .select()
-    .where('name', name);
 }

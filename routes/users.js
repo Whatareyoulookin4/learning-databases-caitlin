@@ -17,8 +17,6 @@ router.get('/', (req, res) => {
 router.get('/first', (req, res) => {
   db.getFirstUser()
     .then(users => {
-      console.log(users);
-
       res.render('first', { users });
     })
     .catch(err => {
@@ -31,9 +29,20 @@ router.get('/nigel', (req, res) => {
   const findName = path.substr(1);
   db.findNigel(findName)
     .then(users => {
-      console.log(users);
       users = users[0];
       res.render('nigel', { users });
+    })
+    .catch(err => {
+      res.status(500).send('DATABASE ERROR: ' + err.message);
+    });
+});
+
+router.get('/user/:id', (req, res) => {
+  console.log(req.params);
+
+  db.getUser(req.params.id)
+    .then(users => {
+      res.render('user', { users });
     })
     .catch(err => {
       res.status(500).send('DATABASE ERROR: ' + err.message);
