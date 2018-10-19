@@ -22,6 +22,9 @@ https://code.visualstudio.com/
 Using terminal in code
 https://code.visualstudio.com/docs/editor/integrated-terminal
 
+DB Browser
+https://sqlitebrowser.org/
+
 Knex cheatsheet 
 https://devhints.io/knex
 
