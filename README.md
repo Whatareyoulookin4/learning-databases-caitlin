@@ -1,7 +1,6 @@
-# learning-databases-caitlin
-learning-databases-caitlin
-
 # This project will give you a boilerplate where you can practice using Knex to make database queries. 
+
+## Objective: Sharing my knowledge on databases and queries with a friend at work.
 
 ## To run this project 
 ```
@@ -28,3 +27,8 @@ https://sqlitebrowser.org/
 Knex cheatsheet 
 https://devhints.io/knex
 
+## Tutorial notes and reflections 
+
+Leslie: 
+
+Caitlin: 
