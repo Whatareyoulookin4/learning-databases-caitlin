@@ -8,6 +8,5 @@ learning-databases-caitlin
 yarn run knex migrate:latest
 yarn run knex seed:run
 yarn dev
-
 ```
 Then browse to localhost:3000 and enjoy!
